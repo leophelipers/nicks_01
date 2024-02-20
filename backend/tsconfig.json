@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2019",
+      "module": "commonjs",
+      "jsx": "preserve",
+      "rootDir": ".",
+      "outDir": "./dist",
+      "strict": true,
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "paths": {
+        "sequelize": ["./node_modules/sequelize/types/index"],
+      "sequelize-typescript": ["./node_modules/sequelize-typescript/lib/index"]
+      }
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+    "exclude": ["node_modules", ".webpack", ".vscode", "dist"]
+  }
